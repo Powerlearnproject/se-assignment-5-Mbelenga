@@ -1,0 +1,134 @@
+Installation of VS Code, on widows 10 since am using it
+Visit the Official Website:
+
+Go to the Visual Studio Code website.
+Download the Installer:
+
+Click on the "Download for Windows" button. This will download the installer file (VSCodeUserSetup-{version}.exe).
+Run the Installer:
+
+Locate the downloaded installer and double-click it to start the installation process.
+Follow Installation Prompts:
+
+Accept the license agreement.
+Choose the destination folder.
+Select additional tasks such as creating a desktop icon and adding to PATH (highly recommended).
+Complete Installation:
+
+Click "Install" to begin the installation.
+Once the installation is complete, click "Finish" to launch Visual Studio Code.
+Prerequisites
+Windows 10: Ensure your system is running Windows 10.
+Administrator Rights: Required to install applications.
+First-time Setup
+Initial Configurations and Settings
+Open VS Code:
+
+Launch Visual Studio Code from the Start menu or desktop shortcut.
+Theme:
+
+Go to File > Preferences > Color Theme and choose a theme (e.g., Dark+, Light+).
+Font Size and Family:
+
+Go to File > Preferences > Settings, search for editor.fontSize and editor.fontFamily to set your preferred font size and family.
+Extensions:
+Activity Bar:
+
+Located on the far left.
+Provides access to different views like Explorer, Search, Source Control, Run & Debug, and Extensions.
+Side Bar:
+
+Adjacent to the Activity Bar.
+Displays the contents of the selected view (e.g., file explorer, search results).
+Editor Group:
+
+Main area where you edit your code.
+Supports multiple editors side by side.
+Status Bar:
+
+Located at the bottom.
+Displays information like the current Git branch, errors and warnings, encoding, and line/column number.
+Command Palette
+Accessing and Using the Command Palette
+Access:
+
+Press Ctrl+Shift+P or F1 to open the Command Palette.
+Common Tasks:
+
+Search for commands (>) like >Open File, >Preferences: Open Settings.
+Run tasks like >Format Document, >Go to Definition.
+Extensions in VS Code
+Role and Management of Extensions
+Finding and Installing Extensions:
+
+Click on the Extensions view icon in the Activity Bar.
+Search for the extension you need.
+Click Install.
+Managing Extensions:
+
+Disable or uninstall extensions from the Extensions view.
+Essential Extensions for Web Development:
+
+HTML CSS Support: Enhances HTML and CSS development.
+Debugger for Chrome: Debug your JavaScript code in the Chrome browser.
+Integrated Terminal
+Opening and Using the Integrated Terminal
+Open Integrated Terminal:
+
+Go to View > Terminal or press `Ctrl+`` (backtick).
+Advantages:
+
+Easily execute commands without leaving the editor.
+Supports multiple terminals.
+Integrated with the project workspace.
+File and Folder Management
+Creating, Opening, and Managing Files and Folders
+Create:
+
+Right-click in the Explorer view and select New File or New Folder.
+Open:
+
+Double-click a file in the Explorer view to open it in the editor.
+Navigation:
+
+Use Ctrl+P to quickly open files.
+Use Ctrl+Tab to switch between open files.
+Settings and Preferences
+Customizing Settings
+Access Settings:
+
+Go to File > Preferences > Settings or press Ctrl+,.
+Changing Theme:
+
+Search for Color Theme in the settings and select your preferred theme.
+Font Size:
+
+Search for Font Size and adjust editor.fontSize.
+Keybindings:
+
+Go to File > Preferences > Keyboard Shortcuts or press Ctrl+K Ctrl+S.
+Debugging in VS Code
+Setting Up and Starting Debugging
+Set Breakpoints:
+
+Click in the gutter next to the line numbers.
+Launch Configuration:
+
+Go to Run > Add Configuration to create a launch.json file.
+Start Debugging:
+
+Press F5 to start debugging.
+Key Features:
+
+Watch Expressions, Call Stack, Variables, and Breakpoints.
+Using Source Control
+Integrating Git with VS Code
+Initialize Repository:
+
+Open the Source Control view and click Initialize Repository.
+Making Commits:
+
+Stage changes, write a commit message, and click Commit.
+Pushing Changes to GitHub:
+
+Use the command palette Ctrl+Shift+P and search for Git: Push.
